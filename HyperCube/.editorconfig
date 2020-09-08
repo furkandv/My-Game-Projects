@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0011: Küme ayracı ekle
+csharp_prefer_braces = false:silent
+
+# IDE0058: İfade değeri asla kullanılmaz
+csharp_style_unused_value_expression_statement_preference = unused_local_variable:silent
